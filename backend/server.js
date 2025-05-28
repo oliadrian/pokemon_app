@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import pokemonRoutes from "./routes/pokemon";
+import pokemonRoutes from "./routes/pokemon.js";
 
 const app = express();
 const PORT = process.env.PORT || 8000;

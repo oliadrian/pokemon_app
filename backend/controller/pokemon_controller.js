@@ -1,5 +1,5 @@
-import Pokemon from "../models/pokemon_model";
-import PokemonService from "../service/pokemon_service";
+import Pokemon from "../models/pokemon_model.js";
+import PokemonService from "../service/pokemon_service.js";
 
 class PokemonController {
     static async getPokemonById(req, res) {
